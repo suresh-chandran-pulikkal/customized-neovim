@@ -2,6 +2,7 @@
 -- NOTE: For Typescript
 return {
   "pmizio/typescript-tools.nvim",
+  enabled = false,
   event = {
     "BufReadPost",
     "BufNewFile",

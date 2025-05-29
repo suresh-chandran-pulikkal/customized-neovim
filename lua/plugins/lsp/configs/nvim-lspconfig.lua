@@ -1,7 +1,7 @@
 ---@type NvPluginSpec
 --  NOTE: LSP Configuration
 return {
-  "neovim/nvim-lspconfig",
+  "neovim/nvim-lspconfig", 
   init = function()
     vim.keymap.set("n", "<leader>lf", "<cmd>Format<cr>", { desc = "LSP | Format", silent = true })
     vim.keymap.set("n", "<leader>lF", "<cmd>FormatToggle<cr>", { desc = "LSP | Toggle Autoformat", silent = true })

@@ -2,6 +2,7 @@
 -- NOTE: Improve Folds
 return {
   "kevinhwang91/nvim-ufo",
+  enabled = false, -- Disabled 
   event = {
     "BufReadPost",
     "BufNewFile",

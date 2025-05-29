@@ -3,7 +3,7 @@
 return {
   "stevearc/oil.nvim",
   init = function()
-    vim.keymap.set("n", "<leader>O", function()
+    vim.keymap.set("n", "<leader>o", function()
       if vim.bo.filetype == "oil" then
         vim.cmd "Bdelete!"
       else

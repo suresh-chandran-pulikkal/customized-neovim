@@ -1,6 +1,8 @@
 ---@type NvPluginSpec
 -- NOTE: Smooth scrolling with Cinnamon
 return {
+  -- Disable the plugin 
+  enabled = false,
   "declancm/cinnamon.nvim",
   event = {
     "BufReadPost",

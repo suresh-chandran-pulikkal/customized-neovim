@@ -2,6 +2,7 @@
 -- NOTE: Code Runner
 return {
   "Zeioth/compiler.nvim",
+  enabled = false,
   init = function()
     vim.keymap.set("n", "<leader>rr", "<cmd>CompilerRedo<cr>", { desc = "Compiler | Redo Last Action", silent = true })
 

@@ -2,7 +2,7 @@
 -- NOTE: Sessions
 return {
   "rmagatti/auto-session",
-  enabled = false,
+  enabled = false, --  disabled by default, set to true to enable
   lazy = false,
   dependencies = {
     "nvim-telescope/telescope.nvim", -- Only needed if you want to use sesssion lens

@@ -2,6 +2,7 @@
 -- NOTE: Keymaps Popup/Guide
 return {
   "folke/which-key.nvim",
+  enabled = true,
   event = "VeryLazy",
   opts = {
     icons = {
@@ -30,7 +31,7 @@ return {
         { "<leader>h", group = "Harpoon", icon = "" },
         { "<leader>l", group = "LSP", icon = "" },
         { "<leader>n", group = "Neovim", icon = "" },
-        { "<leader>o", group = "Options", icon = "" },
+        { "<leader>o", group = "Oil | Options", icon = "" },
         { "<leader>p", group = "Plugins", icon = "" },
         { "<leader>r", group = "Runner", icon = "" },
         { "<leader>t", group = "Terminal", icon = "" },
